@@ -1,0 +1,187 @@
+body {
+background-color: lightskyblue;
+}
+
+.container {
+max-width: 600px;
+background-color: yellow;
+border: 2px solid red;
+border-radius: 15px;
+position: relative;
+top: 100px;
+left: 10%;
+text-align: center;
+box-shadow: 0 5px 10px #555;
+}
+
+
+
+.divContainer {
+    background-color: turquoise;
+    border: 2px solid rgb(45, 11, 240);
+    border-radius: 10px;
+    max-width: 550px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 8px 10px;
+    text-align: center;
+    position:relative;
+}
+
+#spanId{
+    position: absolute;
+    left: 2%;
+    bottom: 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: larger;
+    padding: 3px 5px;
+}
+
+.buttonDiv{
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+}
+
+
+
+.btnComplete{
+    background-color: rgba(0, 0, 255, 0.644);
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    position: relative;
+    left: 26%;
+   
+}
+
+.btnX{
+    background-color: rgb(250, 14, 14);
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    position: absolute;
+    right: 1%;
+    
+}
+.btnEdit{
+    background-color: hotpink;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    position: absolute;
+    right: 7%;
+}
+
+.saveBtn{
+    background-color: rgb(243, 103, 9);
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    position: absolute;
+    right: 35%;
+}
+
+.btnUndo{
+    background-color: rgb(11, 219, 73);
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    position: absolute;
+    right: 58%;
+}
+.btnRedo{
+    background-color: rgb(230, 15, 158);
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    position: absolute;
+    right: 47%;
+}
+
+.addTaskBtn{
+    background-color: rgb(243, 103, 9);
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    position: absolute;
+    right: 8%;
+}
+
+.undoBtn{
+    background-color: rgb(11, 219, 73);
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    position: absolute;
+    right: 5%;
+}
+
+.inpDiv{
+    background-color: rgb(26, 231, 105);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left: 14%;
+    margin: 20px;
+    padding: 1%;
+    max-width: 400px;
+}
+
+.addTaskInp{
+    background-color: rgba(245, 14, 206, 0.808);
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.editTaskInp{
+    background-color: turquoise;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    left: 2%;
+}
+
+
+button:hover,
+button:active{
+    color: black;
+}
+.delTaskContainer{
+    background-color: pink;
+    width: 30%;
+    border: 2px solid rgb(15, 170, 231);
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    right: 20%;
+    text-align: center;
+}
+
+
+.delTask{
+    background-color: rgba(248, 21, 59, 0.781);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    margin:10px 5px;
+    padding: 10px;
+}
+#delSpanId{
+    position: relative;
+    right: 10%;
+    color: white;
+    font-size: large;
+}
